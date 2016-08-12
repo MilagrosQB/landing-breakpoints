@@ -1,0 +1,185 @@
+
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Open Sans', 'Courgette', sans-serif;
+	font-size: 12px;
+}
+
+header {
+	background-color: #FFFFFF;
+	padding: 6px 0px;
+	width: 100%;
+	clear:both;
+}
+
+.logo{
+	width: 100%;
+	height: auto;
+	margin: 5% 0%;
+	float: left;
+}
+
+
+/*common*/
+
+a {
+	text-decoration: none;
+}
+
+nav{
+	width: 100%;
+	float: right;
+}
+
+nav a {
+	padding: 0px 50px 0px 0px;
+	color: #878699;
+	float: right;
+}
+
+nav a:hover{
+	color: #464646;
+}
+
+
+/*Mensaje-Beatiful*/
+
+
+#suscripcion {
+	background-color: #808080;
+	font-size: 14px;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30px;
+}
+
+
+.suscribete{
+	width: 100%;
+	color: #FFFFFF;
+	padding: 5% 13% 0% 0%;
+}
+
+.suscribete span{
+	font-size: 50px;
+	font-weight: bold;
+	padding: 0% 0% 0% 0%;
+}
+
+.suscribete p{
+	padding: 5% 0% 0% 0%;
+}
+
+/*Formulario*/
+
+.formulario{
+	width: 100%;
+	margin: 20% 0% 0% 10%;
+    padding: 5% 0% 4% 10%;
+	background-color: #9A9A9A;
+	border-radius: 12px;
+	overflow: ;
+}
+
+.formula{
+	width: 90%;
+	height: 25px;
+	margin-top: 5px;
+
+}
+
+.formulario h2{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0% 10% 2% 0%;
+}
+
+.formulario p{
+	padding: 0% 0% 5% 0%;
+}
+
+
+.formulario input {
+	padding-left: 5px;
+}
+
+button {
+  background: #3498db;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  border:none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+}
+
+
+/*Footer*/
+
+footer {
+	background-color: #FFFFFF;
+	height: auto;
+	color: #837F83;
+}
+footer p{
+	margin: 2% 0% 2% 0%;
+}
+
+
+
+
+/*Responsive*/
+@media (max-width: 960px){
+
+
+
+
+@media (max-width: 535px){
+	#suscripcion {
+		background-color: #808080;
+		font-size: 14px;
+		width: 100%;
+		height: auto;
+	}
+
+	.main {
+		width: 70%;
+		height: auto;
+	}
+	.suscribete{
+		width: 100%;
+		height: auto;
+		color: #FFFFFF;
+		padding: 5% 13% 0% 0%;
+	}
+
+	.suscribete span{
+		font-size: 50px;
+		font-weight: bold;
+		padding: 0% 0% 0% 0%;
+	}
+
+	.suscribete p{
+		padding: 5% 0% 0% 0%;
+	}
+
+	.formulario{
+		width: 100%;
+		height: auto;
+		margin: 20% 0% 0% 10%;
+	    padding: 15% 0% 0% 0%%;
+		background-color: #9A9A9A;
+		border-radius: 12px;
+		float: left;
+	}
+}
+
+
